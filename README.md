@@ -1,2 +1,2 @@
-# Curso-Java
-Curso de Java Completo
+# Estudos de Java
+Meus estudos diarios de Java👩🏽‍💻
