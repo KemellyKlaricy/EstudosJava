@@ -1,0 +1,43 @@
+Anotações de Conversão de Tipos (Casting) em Java
+Casting é tipo uma "conversão de tipo" que fazemos com as variáveis. Existem dois tipos:
+
+Implícito (Widening Conversion): 
+- É quando a gente passa um valor de um tipo menor pra um maior.
+- O Java faz sozinho, sem a gente ter que pedir.
+- É seguro e não perde informação!
+- Exemplo: Colocar um valor de int dentro de um long. O long é maior, então cabe de boa.
+
+Explícito (Narrowing Conversion): 
+- É quando a gente tenta colocar um valor de um tipo maior num menor.
+- A gente precisa forçar com (tipo) na frente, tipo (int).
+- É arriscado porque pode perder informação! 
+
+-----------------------------------------------------
+
+Conversão entre Tipos Numéricos Inteiros
+byte → short → int → long
+
+Essa conversão é sempre implícita, ou seja, automática. O Java garante que não vai perder informação, porque estamos indo de um tipo pequeno para um maior.
+
+Exemplo: short s = b; (É de boa, o byte cabe no short).
+
+long → int → short → byte
+
+Essa conversão é sempre explícita e perigosa. A gente precisa colocar o tipo entre parênteses.
+
+Exemplo: byte b = (byte) l; (Pode dar erro se o valor do long for muito grande pra caber no byte).
+
+-----------------------------------------------------
+
+Conversão entre Tipos Inteiros e Decimais (Float/Double)
+int / long → float / double
+
+Essa conversão é implícita. O Java aceita de boa converter um número inteiro para um decimal, pois o tipo float/double tem um "espaço" maior.
+
+⚠️ Cuidado! O que pode acontecer é uma perda de precisão. O int e o long têm mais dígitos significativos que o float, então números muito grandes podem perder os últimos algarismos na conversão, virando zero ou mudando o valor. Exemplo: int 2147483647 vira 2.14748365E9 no float.
+
+float / double → int / long
+
+Essa conversão é explícita. A gente precisa forçar com () e sempre vai perder a parte decimal do número.
+
+Exemplo: int i = (int) d; (Se d for 10.5, o i vai ser 10).
