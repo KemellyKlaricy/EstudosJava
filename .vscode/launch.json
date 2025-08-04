@@ -2,10 +2,18 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Wrapper",
+            "request": "launch",
+            "mainClass": "Wrapper",
+            "projectName": "Curso-Java_4461ec8b"
+        },
+        {
+            "type": "java",
             "name": "Launch Program",
             "request": "launch",
             "mainClass": "Console",
-            "console": "integratedTerminal" // Adiciona essa linha aqui, diva!
+            "projectName": "Curso-Java_4461ec8b", // Adicione esta linha
+            "console": "integratedTerminal" // E esta aqui
         }
     ]
 }
