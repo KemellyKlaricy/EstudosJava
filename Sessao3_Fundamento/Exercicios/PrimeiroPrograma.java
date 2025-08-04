@@ -1,3 +1,4 @@
+package Exercicios;
 public class PrimeiroPrograma {
     public void main(String[] args) {
         System.out.println("Hello, Word!");

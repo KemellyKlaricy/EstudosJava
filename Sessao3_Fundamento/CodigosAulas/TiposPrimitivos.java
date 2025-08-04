@@ -1,3 +1,4 @@
+package CodigosAulas;
 public class TiposPrimitivos {
 
     public static void main(String[] args) {
