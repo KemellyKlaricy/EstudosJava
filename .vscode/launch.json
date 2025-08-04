@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ConversãoTiposPrimitivosNumericos",
+            "request": "launch",
+            "mainClass": "ConversãoTiposPrimitivosNumericos",
+            "projectName": "Curso-Java_4461ec8b"
+        },
+        {
+            "type": "java",
             "name": "Wrapper",
             "request": "launch",
             "mainClass": "Wrapper",
@@ -12,8 +19,8 @@
             "name": "Launch Program",
             "request": "launch",
             "mainClass": "Console",
-            "projectName": "Curso-Java_4461ec8b", // Adicione esta linha
-            "console": "integratedTerminal" // E esta aqui
+            "projectName": "Curso-Java_4461ec8b",
+            "console": "integratedTerminal"
         }
     ]
 }
