@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DesafioConversao",
+            "request": "launch",
+            "mainClass": "Exercicios.DesafioConversao",
+            "projectName": "Curso-Java_4461ec8b"
+        },
+        {
+            "type": "java",
             "name": "ConversaoStringNumero",
             "request": "launch",
             "mainClass": "CodigosAulas.ConversaoStringNumero",
