@@ -5,14 +5,14 @@ package Exercicios;
 public class DesafioAritmeticos {
     public static void main(String[] args) {
         
-        double parte1F1 = (6 * (3+2));
-        double formula1 = (Math.pow(parte1F1, 2)) / (3 *2);
-        double parte1F2 = (1 - 5) * (2 -7) / 2;
-        double formula2 = Math.pow(parte1F2, 2);
+        double numeradorA = (6 * (3+2));
+        double formula1 = (Math.pow(numeradorA, 2)) / (3 *2);
+        double numeradorB = (1 - 5) * (2 -7) / 2;
+        double formula2 = Math.pow(numeradorB, 2);
 
-        double parte1F3 = formula1 - formula2;
+        double formula3 = formula1 - formula2;
        
-        double formulaFinal = (Math.pow(parte1F3, 3)) / (Math.pow(10, 3));
+        double formulaFinal = (Math.pow(formula3, 3)) / (Math.pow(10, 3));
 
         System.out.println(formulaFinal);
     }
