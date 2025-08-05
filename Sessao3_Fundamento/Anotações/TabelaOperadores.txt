@@ -1,0 +1,21 @@
+Tabela de Precedência de Operadores Java
+(Quanto maior o número, maior a precedência)
+
+ Precedência | Operador                      | Tipo                                                              | Associatividade     |    
+-------------|-------------------------------|-------------------------------------------------------------------|---------------------|
+     15      | (), [], .                     | Parênteses, Seleção em array, Acesso a membros                    | Esquerda → Direita  |   
+     14      | ++, --                        | Incremento/Decremento pós-fixado                                  | Direita → Esquerda  |    
+     13      | ++, --, +, -, ~, !, (type)    | Pré-fixados, Sinais, Complemento binário, Negação, Cast           | Direita → Esquerda  |    
+     12      | *, /, %                       | Multiplicação, Divisão, Módulo                                    | Esquerda → Direita  |    
+     11      | +, -                          | Adição, Subtração                                                 | Esquerda → Direita  |    
+     10      | <<, >>, >>>                   | Deslocamentos (esquerda, direita aritmético/lógico)               | Esquerda → Direita  |    
+      9      | <, <=, >, >=, instanceof      | Comparações, Verificação de tipo                                  | Esquerda → Direita  |    
+      8      | ==, !=                        | Igualdade, Diferença                                              | Esquerda → Direita  |    
+      7      | &                             | E lógico (bit a bit)                                              | Esquerda → Direita  |    
+      6      | ^                             | Ou exclusivo (bit a bit)                                          | Esquerda → Direita  |    
+      5      | |                             | Ou lógico (bit a bit)                                             | Esquerda → Direita  |    
+      4      | &&                            | E lógico                                                          | Esquerda → Direita  |    
+      3      | ||                            | OU lógico                                                         | Esquerda → Direita  |    
+      2      | ?:                            | Operador ternário                                                 | Direita → Esquerda  |    
+      1      | =, +=, -=, *=, /=, %=         | Atribuições simples e compostas                                   | Direita → Esquerda  |    
+---------------------------------------------------------------------------------------------------------------------------------------|
