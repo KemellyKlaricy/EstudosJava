@@ -1,0 +1,49 @@
+OPERADORES EM JAVA
+
+Os operadores são símbolos que realizam operações em um ou mais operandos. Em Java, eles são divididos em três tipos principais, de acordo com o número de operandos que utilizam.
+
+----------------------------------------------
+
+1. Operadores Unários
+    -  Operam com um único operando.
+    -  Exemplos: `a++` (incremento), `!true` (negação lógica), `-10` (negativo).
+
+2. Operadores Binários
+    -  Operam com dois operandos. A maioria dos operadores se enquadra nesta categoria.
+
+3. Operador Ternário
+    -  O único que utiliza três operandos. É uma forma abreviada para uma estrutura `if-else`.
+    -  Exemplo: `(condição) ? valor_se_verdadeiro : valor_se_falso`
+
+----------------------------------------------
+
+Classificação Detalhada dos Operadores Binários
+
+- Aritméticos: Realizam operações matemáticas.
+    - `+` (Adição), `-` (Subtração), `*` (Multiplicação), `/` (Divisão), `%` (Módulo).
+
+- Relacionais: Compararam dois valores, resultando em `true` ou `false`.
+    - `==` (Igual a), `!=` (Diferente de), `>` (Maior que), `<` (Menor que), `>=` (Maior ou igual a), `<=` (Menor ou igual a).
+
+- Lógicos: Combinam expressões booleanas.
+    - `&&` (AND lógico), `||` (OR lógico).
+
+- De Atribuição: Atribuem um valor a uma variável.
+    - `=` (Atribuição simples), `+=`, `-=`, `*=`, `/=`, `%=` (Atribuições compostas).
+
+----------------------------------------------
+
+Classificação Detalhada dos Operadores Unários
+
+- Aritméticos:
+    - `+` (Positivo), `-` (Negativo), `++` (Incremento), `--` (Decremento).
+
+- Lógico:
+    - `!` (Negação lógica).
+
+----------------------------------------------
+
+Classificação Detalhada do Operador Ternário
+
+- Lógico:
+    - `? :` (operador condicional ternário). Ele avalia uma expressão booleana e retorna um dos dois valores com base no resultado.
