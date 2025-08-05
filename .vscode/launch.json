@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Aritmeticos",
+            "request": "launch",
+            "mainClass": "CodigosAulas.Aritmeticos",
+            "projectName": "Curso-Java_4461ec8b"
+        },
+        {
+            "type": "java",
             "name": "DesafioConversao",
             "request": "launch",
             "mainClass": "Exercicios.DesafioConversao",
