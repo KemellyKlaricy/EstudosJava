@@ -1,0 +1,26 @@
+Operadores Aritméticos em Java
+------------------------------------------------------------
+Estudo de operadores aritméticos com números decimais e inteiros.
+Também inclui uso de cast (conversão) para ter divisão com casas decimais.
+------------------------------------------------------------
+
+Operadores usados:
+
+Operador  | O que faz             | Exemplo no código         | Resultado esperado
+----------|------------------------|----------------------------|-----------------------
+   +      | Soma                   | x + y     ou a + b         | 36.76     ou 11
+   -      | Subtração              | x - y     ou a - b         | 32.36     ou 5
+   *      | Multiplicação          | x * y     ou a * b         | 76.032    ou 24
+   /      | Divisão (double)       | x / y                      | 15.709
+   /      | Divisão inteira (int)  | a / b                      | 2
+ (double) | Cast para double       | a / (double) b             | 2.666...
+   %      | Módulo (resto)         | x % y     ou a % b         | 1.36      ou 2
+
+------------------------------------------------------------
+
+O que aprendi:
+- Quando uso dois int, a divisão ignora os decimais (ex: 8 / 3 = 2)
+- Usando (double) antes da variável, o resultado vem com casas decimais
+- O operador % retorna o resto da divisão
+- Posso usar "var" no lugar do tipo se o Java entender o valor automaticamente
+
