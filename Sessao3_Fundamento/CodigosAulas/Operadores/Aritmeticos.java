@@ -1,4 +1,4 @@
-package CodigosAulas;
+package CodigosAulas.Operadores;
 
 public class Aritmeticos {
     public static void main(String[] args) {
