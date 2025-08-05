@@ -1,0 +1,26 @@
+OPERADORES LÓGICOS EM JAVA
+
+-------------------------------------------------------------------------------------------------
+Estudos de operadores lógico com tabela verdadeira
+-------------------------------------------------------------------------------------------------
+
+Operadores Usados:
+
+Operador  | Descrição                                    | Exemplo no código         
+----------|----------------------------------------------|--------------------------------------|
+&&(and)   | Duas expressões verdadeiras                  | if((1 == (2 -1)) && (2 == (1 + 1)))  |
+||(or)    | Pelo menos uma das expressões é verdaira     | (x < 5 || y > 0)                     | 
+!(not)    | Inverte o valor lógico da expressão          | !(x <5)                              |
+^(xor)    | Pelas uma das expressões pode ser verdadeira | (x < 5 ^ y < 5)                      |
+
+-------------------------------------------------------------------------------------------------
+
+O que aprendi:
+   - O resultado de qualquer operação lógica é sempre um valor booleano (true ou false).
+   - O operador && exige que tudo seja verdade.
+   - O operador || é mais flexível, aceitando apenas uma condição verdadeira.
+   - O ! é perfeito para negar uma condição.
+   - O ^ (XOR) é um operador especial que só retorna true quando as expressões são diferentes.
+
+
+
