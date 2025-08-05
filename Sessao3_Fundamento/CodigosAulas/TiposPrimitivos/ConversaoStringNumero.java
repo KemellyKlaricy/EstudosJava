@@ -1,4 +1,4 @@
-package CodigosAulas;
+package CodigosAulas.TiposPrimitivos;
 
 import javax.swing.JOptionPane;
 
