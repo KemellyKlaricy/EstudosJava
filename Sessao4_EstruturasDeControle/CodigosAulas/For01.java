@@ -1,4 +1,4 @@
-package Sessao4_Estruturas.CodigosAulas;
+package Sessao4_EstruturasDeControle.CodigosAulas;
 
 public class For01 {
     public static void main(String[] args) {
