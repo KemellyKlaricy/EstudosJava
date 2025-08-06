@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AreaTriangulo",
+            "request": "launch",
+            "mainClass": "Exercicios.AreaTriangulo",
+            "projectName": "Curso-Java_4461ec8b"
+        },
+        {
+            "type": "java",
             "name": "Potencia",
             "request": "launch",
             "mainClass": "Exercicios.Potencia",
