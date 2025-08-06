@@ -1,4 +1,4 @@
-package Sessao4_EstruturasDeControle.Exercicios;
+package EstruturasDeControle.Exercicios;
 
 import java.util.Scanner;
  /*O usuario deve digitar o dia da semana e o programa deve retornar: 

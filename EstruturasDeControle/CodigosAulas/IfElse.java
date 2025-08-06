@@ -1,4 +1,4 @@
-package Sessao4_EstruturasDeControle.CodigosAulas;
+package EstruturasDeControle.CodigosAulas;
 
 import javax.swing.JOptionPane;
 

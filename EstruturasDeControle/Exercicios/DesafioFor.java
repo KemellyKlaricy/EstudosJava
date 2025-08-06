@@ -1,4 +1,4 @@
-package Sessao4_EstruturasDeControle.Exercicios;
+package EstruturasDeControle.Exercicios;
 
 public class DesafioFor {
     public static void main(String[] args) {
