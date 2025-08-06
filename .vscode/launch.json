@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "For03",
+            "request": "launch",
+            "mainClass": "Sessao4_EstruturasDeControle.CodigosAulas.For03",
+            "projectName": "Curso-Java_4461ec8b"
+        },
+        {
+            "type": "java",
             "name": "WhileIndeterminado",
             "request": "launch",
             "mainClass": "Sessao4_Estruturas.CodigosAulas.WhileIndeterminado",
