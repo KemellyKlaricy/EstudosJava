@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CalcularIMC",
+            "request": "launch",
+            "mainClass": "Exercicios.CalcularIMC",
+            "projectName": "Curso-Java_4461ec8b"
+        },
+        {
+            "type": "java",
             "name": "ConverterTemperaturas",
             "request": "launch",
             "mainClass": "Exercicios.ConverterTemperaturas",
