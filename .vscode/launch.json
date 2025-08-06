@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DiaSemana",
+            "request": "launch",
+            "mainClass": "Sessao4_Estruturas.Exercicios.DiaSemana",
+            "projectName": "Curso-Java_4461ec8b"
+        },
+        {
+            "type": "java",
             "name": "IfElse",
             "request": "launch",
             "mainClass": "Sessao4_Estruturas.CodigosAulas.IfElse",
