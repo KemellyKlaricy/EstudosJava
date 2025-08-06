@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "IfElse",
+            "request": "launch",
+            "mainClass": "Sessao4_Estruturas.CodigosAulas.IfElse",
+            "projectName": "Curso-Java_4461ec8b"
+        },
+        {
+            "type": "java",
             "name": "AreaTriangulo",
             "request": "launch",
             "mainClass": "Exercicios.AreaTriangulo",
