@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SwitchComBreak",
+            "request": "launch",
+            "mainClass": "EstruturasDeControle.CodigosAulas.SwitchComBreak",
+            "projectName": "Curso-Java_4461ec8b"
+        },
+        {
+            "type": "java",
             "name": "For03",
             "request": "launch",
             "mainClass": "Sessao4_EstruturasDeControle.CodigosAulas.For03",
