@@ -14,6 +14,8 @@ public class DataTeste {
         System.out.println("Digite o ano: ");
         data1.ano = entrada.nextInt();
 
+        System.out.println("A data digitada é: " + data1.dia + " / " + data1.mês + " / " + data1.ano);
+
         entrada.close();
 
     }
